@@ -43,7 +43,7 @@ base05 = "#383a42"
 base06 = "#202227"
 base07 = "#090a0b"
 base08 = "#d84a3d"
-base09 = "#a626a4"
+base09 = "#d75f00"
 base0A = "#c18401"
 base0B = "#50a14f"
 base0C = "#0070a8"
@@ -71,6 +71,8 @@ Folded = 'base03 base01'
 FoldColumn = 'base0C base01'
 LineNr = 'grey'
 FloatBorder = 'blue'
+WinBar = '- darker_black'
+WinBarNC = '- darker_black'
 # Whitespace = 'base00 -'
 VertSplit = 'line'
 CursorLine = '- black2'
@@ -408,5 +410,3 @@ CmpItemKindTypeParameter = 'red'
 [ToggleTerm]
 ToggleTerm1FloatBorder = 'line'
 
-[Illuminate]
-IlluminatedWordText = '- base02 - -'

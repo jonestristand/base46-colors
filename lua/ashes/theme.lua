@@ -1,3 +1,4 @@
+
 local c = require('ashes.palette')
 
 local hl = vim.api.nvim_set_hl
@@ -25,6 +26,8 @@ theme.set_highlights = function()
   hl(0, "FoldColumn", { fg = c.base0C, bg = c.base01 })
   hl(0, "LineNr", { fg = c.grey, bg = 'NONE' })
   hl(0, "FloatBorder", { fg = c.blue, bg = 'NONE' })
+  hl(0, "WinBar", { fg = 'NONE', bg = c.darker_black })
+  hl(0, "WinBarNC", { fg = 'NONE', bg = c.darker_black })
   hl(0, "VertSplit", { fg = c.line, bg = 'NONE' })
   hl(0, "CursorLine", { fg = 'NONE', bg = c.black2 })
   hl(0, "CursorColumn", { fg = 'NONE', bg = c.black2 })
@@ -333,9 +336,6 @@ theme.set_highlights = function()
 
   -- ToggleTerm
   hl(0, "ToggleTerm1FloatBorder", { fg = c.line, bg = 'NONE' })
-
-  -- Illuminate
-  hl(0, "IlluminatedWordText", { fg = 'NONE', bg = c.base02, sp = 'NONE',  })
 end
 
 return theme
