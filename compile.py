@@ -9,7 +9,7 @@ directory = 'src/base46/lua/base46/themes'
 highlights = ''
 
 with open(os.path.join('src', 'template-nvchad.toml'), "r") as text_file:
-    for line in itertools.islice(text_file, 7, 366):
+    for line in itertools.islice(text_file, 7, 409):
         highlights += line
 
 if not os.path.exists('templates'):
